@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Shopping Store</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Fresh picks for your week</p>
+          <h1>Mini online shopping experience</h1>
+          <p class="hero-text">
+            Choose your favorite items, adjust quantities, and see the total update instantly.
+          </p>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="products" id="products"></section>
+
+        <aside class="summary">
+          <h2>Cart Summary</h2>
+          <div id="cart-items" class="cart-items"></div>
+
+          <div class="totals">
+            <div class="row">
+              <span>Subtotal</span>
+              <span id="subtotal">$0.00</span>
+            </div>
+            <div class="row">
+              <span>Shipping</span>
+              <span id="shipping">$0.00</span>
+            </div>
+            <div class="row">
+              <span>Tax</span>
+              <span id="tax">$0.00</span>
+            </div>
+            <div class="row total-row">
+              <span>Total</span>
+              <span id="total">$0.00</span>
+            </div>
+          </div>
+        </aside>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
